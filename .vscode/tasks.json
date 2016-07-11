@@ -12,6 +12,6 @@
             "isBuildCommand": true,
             "showOutput": "silent",
             "problemMatcher": "$msCompile"
-        },
+        }
     ]
 }
