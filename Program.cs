@@ -13,6 +13,13 @@ namespace Cheers
             Console.Write("> ");
             string nameInput = Console.ReadLine();
 
+            
+            for (int i = 0; i < nameInput.Length; i++)
+            {
+                Console.WriteLine("Give me " + "a" + ".." + nameInput[i].ToString().ToLower());                
+            }
+
+
             Console.WriteLine(nameInput.ToUpper() + " is ... THE TITS!");
         }
     }
