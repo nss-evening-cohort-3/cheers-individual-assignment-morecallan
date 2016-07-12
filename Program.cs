@@ -12,6 +12,8 @@ namespace Cheers
             Console.WriteLine("What's your name??");
             Console.Write("> ");
             string nameInput = Console.ReadLine();
+
+            Console.WriteLine(nameInput.ToUpper() + " is ... THE TITS!");
         }
     }
 }
